@@ -3,7 +3,7 @@
     --letras: #3757D5;
     --oscuro: #172768;
     --blanco: #ffffff;
-    --gris: #6C757D;
+    --gris: #6c757d;
     --dorado:#efb810;
     --fuente:'Nunito', sans-serif;
     
@@ -145,12 +145,12 @@ justify-content:space-around;
      margin: 0;
  }
  .calend{
-     max-width: 70%;
+     max-width: 80%;
      display: flex;
      align-items: center;
      column-gap:  3.2rem;
      position: absolute;
-     margin-left: 11rem;
+     margin-left: 10rem;
      background-color: #ffffffc7;
      padding: .5rem 2rem;
      border-radius: 10px;
@@ -175,10 +175,18 @@ justify-content:space-around;
     font-size: 1.2rem;
     box-shadow:0px 13px 23px -8px  #00000096;
 }
+.button-general:hover{
+    background-color: var(--blanco);
+    color: var(--letras);
+}
+.button:hover{
+    background-color: var(--blanco);
+    color: var(--letras);
+}
 .element-txt{
     width: 100%;
     color: var(--oscuro);
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     margin: 0;
     font-weight: 700;
     text-align: right;
@@ -193,4 +201,33 @@ padding: 1.5rem 2rem;
 }
 .vacuna{
     max-width: 240px;
+}
+.why-vacuna{
+    max-width: 92%;
+    margin: auto;
+    
+}
+.why-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: .6rem;
+}
+.txt-why{
+    grid-column: 1/3;
+    
+    margin-bottom: 4rem;
+}
+.card-why{
+    box-shadow:1px 10px 20px -8px  #00000056;
+    padding: 1rem;
+}
+.card-why h4{
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: var(--oscuro);
+}
+.card-why p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--gris);
 }
