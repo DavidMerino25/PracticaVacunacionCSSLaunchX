@@ -248,3 +248,76 @@ padding: 1.5rem 2rem;
     margin: auto;
     
 }
+.buttons-option{
+    max-width: 90%;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 2rem;
+
+}
+.buttons-p{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color:  var(--oscuro);
+    width: 60%;
+    padding: 1.2rem;
+}
+.contenedor-p-m{
+    color: var(--gris);
+    font-weight: 400;
+    font-size: 1.2rem;
+    width: 60%;
+    margin-left: 4rem;
+}
+
+.options-section-contac{
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+.options-contac{
+    width: 100%;
+    margin: auto;
+}
+.options-contac-texto, .options-contac-buttons{
+width: 90%;
+margin: auto;
+}
+
+
+.footer-pro{
+    width: 100%;
+    background-color: #dcdfe2b4;
+    padding: 2rem;
+}
+.footer-header{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-vaci{
+    width: 18%;
+    text-align: center;
+}
+.footer-vaci p{
+    text-align: justify;
+}
+.footer-options{
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+.terms{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.footer-options_option{
+    display: flex;
+    flex-direction: column;
+}
