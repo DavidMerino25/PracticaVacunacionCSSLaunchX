@@ -231,3 +231,20 @@ padding: 1.5rem 2rem;
     font-weight: 400;
     color: var(--gris);
 }
+.options{
+    max-width: 100%;
+    margin: auto;
+}
+.options-section{
+    width: 90%;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-top: 2rem;
+}
+.options-texto{
+    max-width: 90%;
+    max-height: 80%;
+    margin: auto;
+    
+}
