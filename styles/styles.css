@@ -270,6 +270,12 @@ gap: 2rem;
     width: 60%;
     margin-left: 4rem;
 }
+.options-contac-buttons{
+    width: 90%;
+    display: grid;
+    
+    background-color: #148BE3;
+}
 
 .options-section-contac{
     display: flex;
@@ -277,14 +283,17 @@ gap: 2rem;
     margin: auto;
 }
 .options-contac{
-    width: 100%;
-    margin: auto;
+    
 }
 .options-contac-texto, .options-contac-buttons{
 width: 90%;
 margin: auto;
 }
-
+.contac-card-container{
+display: flex;
+align-items: center;
+justify-content: center;
+}
 
 .footer-pro{
     width: 100%;
