@@ -33,6 +33,7 @@ body{
     padding-left: 3rem;
     padding-right: 3rem;
     background-color: #ffffffc9;
+    position: fixed;
     
 }
 .logo h2{
@@ -315,8 +316,8 @@ height: 11rem;
 
 .footer-pro{
     width: 100%;
-    background-color: #dcdfe2b4;
-    padding: 2rem;
+    background-color: #eaedf0b4;
+   height: 100%;
 }
 .footer-header{
     width: 95%;
